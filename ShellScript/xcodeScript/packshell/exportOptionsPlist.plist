@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <!--就是那个teamID，不要多想-->
+        <key>teamID</key>
+        <string>472P9J8R6U</string>
+        <!--method目标包的形式 Available options: app-store, ad-hoc, package, enterprise, development, and developer-id-->
+        <key>method</key>
+        <string>development</string> 
+        <key> compileBitcode</key> 
+        <false/>
+        <!--描述文件    key是app bundle id， value是描述文件uuid-->
+        <key>provisioningProfiles</key>
+        <dict>
+            <key>com.xueersi.wxjzh</key>
+            <string>f0b4ac00-bec6-460b-9a01-45a17365151b</string>
+        </dict>
+    </dict>
+    </plist>
+</xml>
